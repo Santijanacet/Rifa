@@ -1,0 +1,28 @@
+.btn1 {
+    display: flex; /* Enable flexbox layout */
+    align-items: center; /* Align items vertically in the flex container */
+    justify-content: space-between; /* Distribute space between items */
+    padding: 5px 30px; /* Increase padding slightly for a longer button */
+    font-size: 16px; /* Maintain the specified font size */
+    border: 1px solid #ccc; /* Add a border for visual distinction */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Indicate clickable behavior */
+    background-color: #eab308; /* Example background color (change as needed) */
+    color: black; /* Example text color (change as needed) */
+    width: 250px; /* Adjust width as needed */
+    height: 80px; /* Adjust height as needed */
+    transition: all 0.2s ease-in-out; /* Smooth transition for hover effect */
+  }
+  
+  .btn1:hover {
+    background-color: #d79a00; /* Slightly darker background on hover */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box shadow on hover */
+    transform: translateY(-1px); /* Slight elevation on hover */
+  }
+  
+  .btn1 img {
+    height: 30px; /* Set the height of the SVG icon */
+  }
+  
+  
+  
