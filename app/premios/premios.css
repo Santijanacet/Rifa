@@ -52,5 +52,6 @@ body::after {
   .btn1 span { /* Assuming your text is wrapped in a span element */
     flex: 1; /* Allow text to grow and fill remaining space */
     text-align: left; /* Align text to the left */
+    padding: 10px;
   }
   
