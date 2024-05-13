@@ -16,31 +16,41 @@ body::after {
 }
 
 .btn1 {
-  display: flex; 
-  align-items: center; 
-  justify-content: space-between; 
-  padding: 5px 30px; 
-  font-size: 16px; 
-  border: 1px solid #ccc; 
-  border-radius: 10%;
-  cursor: pointer; 
-  background-color: #eab308;
-  color: black; 
-  width: 200px; 
-  height: 90px; 
-  transition: all 0.2s ease-in-out; 
-  position: fixed;
-  top: 70%; 
-  right: 10px;
-  z-index: 100; 
-}
-
-.btn1:hover {
-  background-color: #d79a00; 
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
-  transform: translateY(-1px); 
-}
-
-.btn1 img {
-  height: 30px;
-}
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 30px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 10%;
+    cursor: pointer;
+    background-color: #eab308;
+    color: black;
+    width: 200px;
+    height: 90px;
+    transition: all 0.2s ease-in-out;
+    position: fixed;
+    top: 70%;
+    right: 10px;
+    z-index: 100;
+    font-weight: bold;
+  }
+  
+  .btn1:hover {
+    background-color: #d79a00;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: translateY(-1px);
+  }
+  
+  /* Styling for the icon */
+  .btn1 img {
+    height: 30px;
+    margin-right: 10px; /* Add margin to separate icon from text */
+  }
+  
+  /* Styling for the text */
+  .btn1 span { /* Assuming your text is wrapped in a span element */
+    flex: 1; /* Allow text to grow and fill remaining space */
+    text-align: left; /* Align text to the left */
+  }
+  
