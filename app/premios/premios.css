@@ -30,7 +30,7 @@ body::after {
     height: 90px;
     transition: all 0.2s ease-in-out;
     position: fixed;
-    top: 70%;
+    top: 80%;
     right: 10px;
     z-index: 100;
     font-weight: bold;
