@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Rifa por un sueño",
-  description: "Desarollado por Santiago Janacet",
+  description: "Participa por la oportunidad de ganar grandes premios ",
 };
 
 export default function RootLayout({ children }) {
