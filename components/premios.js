@@ -1,6 +1,3 @@
-
-
-
 export default function Premios({ img, titulo, descripcion }) {
   return (
     <div className="relative flex flex-col mt-6 text-gray-700 bg-white shadow-md bg-clip-border rounded-xl w-full max-w-sm mx-auto">
@@ -15,8 +12,6 @@ export default function Premios({ img, titulo, descripcion }) {
           {descripcion}
         </p>
       </div>
-      
-      
     </div>
   );
 }

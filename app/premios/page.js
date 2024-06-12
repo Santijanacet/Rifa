@@ -50,7 +50,11 @@ export default function Boletos() {
       </div>
 
       <a href="https://wa.me/+573003996872" className="btn1">
-        <span>Compra tu boleta por 5000 $ pesos</span>
+        <span>Compra tu boleta por
+          
+          
+          
+           5000 $ pesos</span>
         <img src="./image/wp.svg" alt="" className="icon" />
       </a>
     </div>

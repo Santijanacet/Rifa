@@ -1,8 +1,7 @@
-body{
+/* body{
     background-image: url("/image/bg.webp");
     background-size: cover;
-    background-repeat: no-repeat;
-    
+    background-repeat: no-repeat; 
 }
 
 body::after {
@@ -19,4 +18,4 @@ body::after {
 .logo{
     width: 200px;
     height: 200px;
-}
+} */

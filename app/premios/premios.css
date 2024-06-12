@@ -42,16 +42,15 @@ body::after {
     transform: translateY(-1px);
   }
   
-  /* Styling for the icon */
+
   .btn1 img {
     height: 30px;
-    margin-right: 10px; /* Add margin to separate icon from text */
+    margin-right: 10px;
   }
   
-  /* Styling for the text */
-  .btn1 span { /* Assuming your text is wrapped in a span element */
-    flex: 1; /* Allow text to grow and fill remaining space */
-    text-align: left; /* Align text to the left */
+  
+  .btn1 span { 
+    text-align: left; 
     
   }
   

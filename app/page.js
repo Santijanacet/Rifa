@@ -3,7 +3,10 @@ import "./page.css";
 export default function Home() {
   return (
     <>
-    <div className="flex flex-col justify-center items-center h-screen">
+
+    <h1 className="text-4xl font-sans tracking-wider text-black text-center mx-auto max-w-5xl">
+      La página está temporalmente fuera de servicio...</h1>
+    {/* <div className="flex flex-col justify-center items-center h-screen">
       <div className="mb-8">
       <h1 className="text-4xl font-sans tracking-wider text-white text-center mx-auto max-w-5xl">
   ¡Explora, gana y sorpréndete! <span style={{color:"#FDE047"}}>Participa en nuestra rifa</span> y podrías ganar bonos, viajes increíbles y los últimos modelos de teléfonos.
@@ -16,7 +19,7 @@ export default function Home() {
       >
         Comprar boletos
       </Link>
-    </div>
+    </div> */}
   </>
   );
 }
